@@ -18,4 +18,4 @@ Probando esta github page.
 La idea es poner algunas cosas de interés relacionadas a matemática y computación que vaya leyendo y aprendiendo a medida que termino la carrera.
 
 
-$h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$
+$\int_0^{\infty} 1/{x}^2$
