@@ -1,18 +1,28 @@
 ---
 layout: post
-title: "prueba 1"
+title: "prueba"
+use_math: true
 date: 2020-01-03
 ---
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" media="all" href="normalize.css">
-    <link rel="stylesheet" media="all" href="core.css">
-    <link rel="stylesheet" media="all" href="style.css">
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-</head>
-    Titulo de esta cosa
-<body data-document>&nbsp;
-    $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-    </body>
+  <head>
+    {% include html_meta %}
+    <title>How to use MathJax in Jekyll generated Github pages -- Haixing Hu's Homepage</title>
+    <link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
+  </head>
+  <body>
+    {% include navigation_bar %}
+    <div class="container-narrow">
+      <div class="content">
+        {{ content }}
+      </div>
+      <hr/>
+      {% include footer %}
+    </div>
+    {% include JB/analytics %}
+  </body>
 </html>
