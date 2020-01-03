@@ -11,6 +11,6 @@ A finales de noviembre de 2019 el seminario de topología tuvo la oportunidad de
 ### Terminología básica.
 
 Definimos a un grupo de Helly como un grupo que actúa de manera geométrica sobre ..
-$G 
+$G$ grupo, $X$ un grafo de Cayley 
 # continuar 
 
