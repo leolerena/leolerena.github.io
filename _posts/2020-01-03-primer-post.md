@@ -4,25 +4,27 @@ title: "prueba"
 use_math: true
 date: 2020-01-03
 ---
-<html>
-  <head>
-    {% include html_meta %}
-    <title>How to use MathJax in Jekyll generated Github pages -- Haixing Hu's Homepage</title>
-    <link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
-    {% if page.use_math %}
-      {% include mathjax_support %}
-    {% endif %}
-  </head>
-  <body>
-    {% include navigation_bar %}
-    <div class="container-narrow">
-      <div class="content">
-        {{ content }}
-      </div>
-      <hr/>
-      {% include footer %}
-    </div>
-    {% include JB/analytics %}
-  </body>
-</html>
+Let's test some inline math $x$, $y$, $x_1$, $y_1$.
+
+Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
+
+Test a display math:
+$$
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+$$
+Is it O.K.?
+
+Test a display math with equation number:
+\begin{equation}
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+\end{equation}
+Is it O.K.?
+
+Test a display math with equation number:
+$$
+  \begin{align}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align}
+$$
+Is it O.K.?
