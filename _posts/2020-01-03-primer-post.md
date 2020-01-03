@@ -10,7 +10,7 @@ A finales de noviembre de 2019 el seminario de topología tuvo la oportunidad de
 
 ### Terminología básica.
 
-Una familia de conjuntos tiene la _propiedad Helly_ si la intersección de a pares es no vacía implica que la intersección de toda la familia es no vacía. Esto nombre es sugerido por el resultado clásico de geometría convexa en $\mathbb R^n$.
+Una familia de conjuntos tiene la _propiedad Helly_ si la intersección de a pares es no vacía implica que la intersección de toda la familia es no vacía. Esto nombre es sugerido por el resultado clásico de geometría convexa en $\Bbb R^n$.
 
 Un espacio métrico geodésico se dice _inyectivo_ si las bolas cerradas tienen la propiedad Helly. En particular lo podemos pensar para un grafo, que se los conoce como _grafos de Helly_. Un grupo que actúa de manera geométrica sobre estos grafos se lo llama un _grupo de Helly_.
 
