@@ -1,30 +1,16 @@
 ---
 layout: post
-title: "prueba"
+title: "Grupos de Helly."
 mathjax: true
 date: 2020-01-03
 ---
-Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
-Now a inline math with special character: $|\psi\rangle$, $x'$, $x^\*$.
 
-Test a display math:
-$$
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
-Is it O.K.?
+A finales de noviembre de 2019 el seminario de topología tuvo la oportunidad de escuchar las exposiciones del profesor Damian Osajda, ver https://www.math.uni.wroc.pl/~dosaj/ . Sus charlas nos iluminaron al respecto de los _grupos de Helly_ que es una nueva familia de grupos que se construyó hace pocos años.
 
-Test a display math with equation number:
-\begin{equation}
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-\end{equation}
-Is it O.K.?
+### Terminología básica.
 
-Test a display math with equation number:
-$$
-  \begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align}
-$$
-Is it O.K.?
+Definimos a un grupo de Helly como un grupo que actúa de manera geométrica sobre ..
+$G 
+# continuar 
+
