@@ -18,4 +18,3 @@ Probando esta github page.
 La idea es poner algunas cosas de interés relacionadas a matemática y computación que vaya leyendo y aprendiendo a medida que termino la carrera.
 
 
-$\int_0^{\infty} 1/{x}^2$
