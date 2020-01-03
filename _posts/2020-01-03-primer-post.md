@@ -3,5 +3,4 @@ layout: post
 title: "prueba 1"
 date: 2020-01-03
 ---
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Un poco de matemática, por ej: $f(x)=x^2$
