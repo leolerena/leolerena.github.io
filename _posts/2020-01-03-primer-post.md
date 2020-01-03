@@ -8,7 +8,7 @@ date: 2020-01-03
 
 A finales de noviembre de 2019 el seminario de topología tuvo la oportunidad de escuchar las exposiciones del profesor [Damian Osajda](https://www.math.uni.wroc.pl/~dosaj/) . Sus charlas nos iluminaron al respecto de los _grupos de Helly_ que es una nueva familia de grupos que se construyó hace pocos años.
 
-### Terminología básica.
+### ¡Qué son los grupos de Helly?
 
 Una familia de conjuntos tiene la _propiedad Helly_ si la intersección de a pares es no vacía implica que la intersección de toda la familia es no vacía. Esto nombre es sugerido por el resultado clásico de geometría convexa en $\Bbb R^n$.
 
