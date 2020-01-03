@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "prueba"
-use_math: true
+mathjax: true
 date: 2020-01-03
 ---
 Let's test some inline math $x$, $y$, $x_1$, $y_1$.
