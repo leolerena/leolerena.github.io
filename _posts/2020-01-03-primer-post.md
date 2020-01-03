@@ -10,9 +10,9 @@ A finales de noviembre de 2019 el seminario de topología tuvo la oportunidad de
 
 ### Terminología básica.
 
-Una familia de conjuntos tiene la _prop Helly_ si la intersección de a pares es no vacía implica que la intersección de toda la familia es no vacía. Esto nombre es sugerido por el resultado clásico de geometría convexa en $R^n$.
+Una familia de conjuntos tiene la _propiedad Helly_ si la intersección de a pares es no vacía implica que la intersección de toda la familia es no vacía. Esto nombre es sugerido por el resultado clásico de geometría convexa en $\mathbb R^n$.
 
-Un espacio métrico geodésico se dice _inyectivo_ si las bolas cerradas tienen la propiedad Helly. En particular lo podemos pensar para un grafo, que se los conoce como _grafos de Helly_. Un grupo que actúa de manera geométrica sobre estos grafos se lo llama un \blue{grupo de Helly}.
+Un espacio métrico geodésico se dice _inyectivo_ si las bolas cerradas tienen la propiedad Helly. En particular lo podemos pensar para un grafo, que se los conoce como _grafos de Helly_. Un grupo que actúa de manera geométrica sobre estos grafos se lo llama un _grupo de Helly_.
 
 La definición si bien es entendible es bastante rebuscada.
 
@@ -26,10 +26,8 @@ Me gustaría entender mucho más sobre la teoría topológica y combinatórica q
 
 No sé si volveré a leer este paper con más atención, quizá si aprendo más sobre grupos de Coxeter y de Artin puede estar bueno para entender un resultado no trivial sobre ellos.
 
-Por otro lado varias de las herramientas que usa son interesantes.
 	
-	
-No llegué a estudiar los grupos de Garside pero según lo que leí parecen ser de gran importancia así que eventualmente lo podría hacer, aunque requiere bastante conocimiento previo en teoría geométrica de grupos que carezco completamente.
+No llegué a leer la parte de grupos de Garside pero según lo que leí parecen ser de gran importancia así que eventualmente lo podría hacer, aunque requiere bastante conocimiento previo en teoría geométrica de grupos que carezco completamente.
 	
 Para finalizar quería decir que está manera bien combinatórica de hacer topología algebraica me parece interesante así que trataré de leer más al respecto.
 
