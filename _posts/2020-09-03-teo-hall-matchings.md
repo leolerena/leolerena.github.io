@@ -27,4 +27,4 @@ $$\tag*{$\blacksquare$}$$
 
 Esta demostración me pareció muy simpática porque nos estamos construyendo otro grafo básicamente y agregando una copia extra por cada vértice. Me recuerde de manera muy vaga al revestimiento de orientaciones de dos hojas y a la demo para ver que es orientable.
  
-
+**Referencia:** Diestel, _Graph Theory_
