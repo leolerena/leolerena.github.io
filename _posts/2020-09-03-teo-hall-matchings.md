@@ -23,7 +23,6 @@ Lo que me pareció muy divertida fue la siguiente demostración de un resultado 
 _Demostración_: Como queremos usar el teorema de Hall necesitamos armarnos un grafo bipartito. Para eso usamos estos dos resultados clásicos de teoría de grafos. 
 El primero es que todo grafo de grado par tiene un camino de Euler. El segundo resultado es que todo grafo bipartito $k$-regular tiene un matching (esto es chequear la _marriage condition_). 
 Para usar estos resultados consideremos el grafo que se obtiene de agregar dos vértices, $v^{+}, v^{-}$ por cada vértice de $G$, y agregar la arista $v_{i}^{+} v_{i+1}^{-}$ por cada arista $v_i v_{i+1}$ del camino de Euler. Este nuevo grafo que nos armamos es bipartito y $k-$regular, por lo tanto tiene un matching que es un 1-factor. Juntando los dos vértices en uno solo tenemos entonces un 2-factor como buscábamos.
-
 $$\tag*{$\blacksquare$}$$
 
 Esta demostración me pareció muy simpática porque nos estamos construyendo otro grafo básicamente y agregando una copia extra por cada vértice. Me recuerde de manera muy vaga al revestimiento de orientaciones de dos hojas y a la demo para ver que es orientable.
