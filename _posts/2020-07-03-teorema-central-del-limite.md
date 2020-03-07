@@ -11,7 +11,7 @@ Recién ayer pude dar el final de proba. Pasaron dos añitos de aquella cursada.
 ### Enunciado del teorema central del límite.
 
 El teorema se puede enunciar de dos maneras dependiendo qué herramientas tengamos para demostrarlo. En el caso más usual se enuncia como,
-> ***Teorema Central del límite:*** Sean $(X_n)$ variables aleatorias con esperanza finita, varianza finita y tercer momento finito. Entonces la variable aleatoria $Z_n = \dfrac{\sqrt{n}}{\sigma^2}{\overline{X}_n}$ converge en distribución a una variable aleatoria con distribución $N(0,1)$.
+> *Teorema Central del límite:* Sean $(X_n)$ variables aleatorias con esperanza finita, varianza finita y tercer momento finito. Entonces la variable aleatoria $Z_n = \dfrac{\sqrt{n}}{\sigma^2}{\overline{X}_n}$ converge en distribución a una variable aleatoria con distribución $N(0,1)$.
 
 Donde la hipótesis de tercer momento finito se puede omitir si sabemos usar las funciones características. En tal caso la demostración pasa a ser más directa pero primero habría que demostrar algunos resultados no triviales como el teorema de Lévy. 
 
@@ -26,3 +26,8 @@ El primero en darse cuenta de este fenómeno fue el fenómeno de _Abraham de Moi
 
 ### ¿Por qué no se puede pedir aún menos?
 Veamos que no se puede sacar ninguna hipótesis. En particular si el segundo momento no es finito y converge a una normal dado que la normal siempre tiene varianza finita (es el segundo paramétro) debe ser que no puede converger a una normal. El caso más ilustrativo es el de la distribución de Cauchy $C(0,1)$ tal que no tiene esperanza y claramente no tiene segundo momento finito. Con un poco de análisis complejo se puede ver que su función característica es $e^{-|t|}$, y haciendo una simple cuenta podemos ver que $Z_n$ tiene distribución $C(0,1)$ por lo tanto no puede converger nunca a una normal.
+
+### Referencias:
+* [Cauchy Distribution and Central Limit Theorem](https://stats.stackexchange.com/questions/74268/cauchy-distribution-and-central-limit-theorem)
+* [What intuitive explanation is there for the central limit theorem?](https://stats.stackexchange.com/questions/3734/what-intuitive-explanation-is-there-for-the-central-limit-theorem/3904#3904)
+
