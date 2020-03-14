@@ -2,10 +2,9 @@
 layout: post
 title: "Dudas acumuladas."
 mathjax: true
-date: 2020-01-03
+date: 2020-14-03
 ---
 
-# Dudas matemáticas.
 
 Durante mis cursadas mantengo una libretita de mano en la que anoto problemas que me gustaría poder resolver. Muchas veces resultan ser ampliaciones de problemas de las guías dadas por los profesores o bien algunas afirmaciones que vi en  internet y no supe demostrar. Para no sobrepasarme y meterme en _todos los rabbit holes_ que encuentro, los suelo anotar. Acá voy a transcribir algunos de ellos que me parecieron relevantes.
 
