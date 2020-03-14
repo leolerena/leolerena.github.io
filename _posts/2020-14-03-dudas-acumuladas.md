@@ -2,7 +2,7 @@
 layout: post
 title: "Dudas acumuladas."
 mathjax: true
-date: 2020-14-03
+date: 2020-03-14
 ---
 
 
