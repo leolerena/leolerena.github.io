@@ -10,7 +10,7 @@ Antes que nada quiero decir que estas notas las había tomado cuando estaba curs
 ------------------------------
 Estos son espacios que su tipo homotópico depende exclusivamente de su grupo fundamental. Esto es que si $X$ es $K(G,1)$ luego su grupo fundamental $\pi_1 X=G$ y los demás grupos de homotopía son nulos. Además pediremos que sea un CW complejo conexo para tener resultados de clasificación más simpáticos.
 
-****Una construcción de $K(G,1)$ usando espacio clasificante.****
+**Una construcción de $K(G,1)$ usando espacio clasificante.**
 
 El primer ejemplo que viene a la cabeza es el de $S^1$ que resulta ser un $K(\mathbb Z,1)$. ¿Cómo podemos extender este resultado para grupos abelianos finitamente generados? Pensemos en un grafo $X$ que sabemos que tiene grupo fundamental generado por los ciclos que resulta ser $G$ un grupo libre. Su revestimiento debe ser un grafo pero simplemente conexo. Esto es que su revestimiento sea un árbol, equivalentemente. Dado que es un CW complejo de dimensión 1, sus grupos de homotopía mayores son todos nulos. Recordemos que estos grupos de homotopía son isomorfos con los grupos de homotopía del grafo. Concluimos entonces que $X$ es un $K(G,1)$.
 
