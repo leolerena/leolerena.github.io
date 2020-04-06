@@ -5,7 +5,9 @@ mathjax: true
 date: 2020-04-06
 ---
 
-Antes que nada quiero decir que estas notas las había tomado cuando estaba cursando topología algebraica allá un año atrás cuando aún eramos libres de ir a la facultad. Pienso subir algunos otros apuntes misceláneos que tengo por ahí dando vuelta en la pc por lo menos para que estén en algún lugar con posibilidad (remota) de ser útiles para alguien. 
+Antes que nada quiero decir que estas notas las había tomado cuando estaba cursando topología algebraica allá un año atrás cuando aún eramos libres de ir a la facultad. Pienso subir algunos otros apuntes misceláneos que tengo por ahí dando vuelta en la pc por lo menos para que estén en algún lugar con posibilidad (remota) de ser útiles para alguien.
+
+Otro comentario es que las demos de los teoremas se las debo, las había visto/pensado pero no las anoté porque no eran cortas o fáciles. Otra cosa que me gustaría hacer es entender la otra construcción de los espaciós clasificantes agregando celdas y demás.
 
 ------------------------------
 Estos son espacios que su tipo homotópico depende exclusivamente de su grupo fundamental. Esto es que si $X$ es $K(G,1)$ luego su grupo fundamental $\pi_1 X=G$ y los demás grupos de homotopía son nulos. Además pediremos que sea un CW complejo conexo para tener resultados de clasificación más simpáticos.
@@ -38,7 +40,7 @@ Esperaríamos que este espacio $EG$ tenga una buena relación con el grupo $G$ y
 	El mapa cociente $q:EG \to EG/G$ es un revestimiento.
 	
 Llamaremos al espacio cociente por el nombre $BG = EG/G$. Resulta que $EG$ al ser contractil, va a ser el revestimiento universal de $BG$. Si consideramos el siguiente teorema no trivial.
-> Teorema.
+> **Teorema.**
 > Dado un revestimiento universal del tipo $q:EG \to EG/G$ resulta que $\operatorname{Deck}(q)=G=\pi_1(BG)$.
 
 Obtuvimos que $BG$ va a ser un espacio con grupos de homotopía triviales para $n>2$ y grupo fundamental exactamente $G$ por construcción. Esto no nos dice que sea un $K(G,1)$. Si bien es claro que es conexo, no es tan claro que sea un CW complejo. Para eso veamos cómo son los símplices en este cociente. Notemos que para todo símplex en EG lo podemos escribir de esta manera
