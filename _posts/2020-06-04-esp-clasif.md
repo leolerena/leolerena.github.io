@@ -37,7 +37,7 @@ Esperaríamos que este espacio $EG$ tenga una buena relación con el grupo $G$ y
 > **Proposición.**
 	El mapa cociente $q:EG \to EG/G$ es un revestimiento.
 	
-Llamaremos al espacio cociente por el nombre $BG \coloneqq EG/G$. Resulta que $EG$ al ser contractil, va a ser el revestimiento universal de $BG$. Si consideramos el siguiente teorema no trivial.
+Llamaremos al espacio cociente por el nombre $BG = EG/G$. Resulta que $EG$ al ser contractil, va a ser el revestimiento universal de $BG$. Si consideramos el siguiente teorema no trivial.
 > Teorema.
 > Dado un revestimiento universal del tipo $q:EG \to EG/G$ resulta que $\operatorname{Deck}(q)=G=\pi_1(BG)$.
 
