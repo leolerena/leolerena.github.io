@@ -34,7 +34,7 @@ esto sale de que el revestimiento de un producto resulta ser el producto de los 
 Ya medio que estamos en condiciones de construir un $K(G,1)$ para un grupo $G$ arbitrario. La construcción es particularmente interesante porque vamos a construir un CW complejo a partir de un grupo. Consideramos un complejo con n-símplices dados por las (n+1) tuplas ordenadas como $[g_0, \dots, g_n]$. Esta construcción tiene lo interesante que es contractil, por ejemplo, podemos ver que todo punto que está en el interior de un símplex $[g_0, \dots, g_n]$ lo podemos llevar por una homotopía al punto $e$ en el simplex $[e,g_0, \dots, g_n]$. De esta manera vemos que EG se trata de un espacio contractil. Esto se debió a que tenemos infinitos símplices pero con la cualidad que para cada símplex existe uno de dimensión superior que contenga a cualquier elemento arbitrario (en este caso en particular usamos $e$ pero bien podríamos haber usado otro elemento del grupo $G$).
 
 Esperaríamos que este espacio $EG$ tenga una buena relación con el grupo $G$ y de hecho la tiene. Se puede ver directamente que actúa a izquierda de manera libre puesto que $ge=e$ solo cuando $g=e$. Ahora con un esfuerzo podemos ver la siguiente proposición.
-> **Proposición**
+> **Proposición.**
 	El mapa cociente $q:EG \to EG/G$ es un revestimiento.
 	
 Llamaremos al espacio cociente por el nombre $BG \coloneqq EG/G$. Resulta que $EG$ al ser contractil, va a ser el revestimiento universal de $BG$. Si consideramos el siguiente teorema no trivial.
@@ -50,7 +50,7 @@ $$
 
 Ya tenemos construidos los espacios $K(G,1)$, nos gustaría saber qué relación hay entre ellos. Es decir dados dos espacios de la familia de espacios $K(G,1)$, ¿qué tienen en común? El siguiente resultado es super importante, ya que nos dice que estos espacios son todos homotópicamente equivalentes. Esto medio que lo podríamos intuir dado que tienen los mismos grupos de homotopía y quizá por Whitehead podríamos ver que son homotópicamente equivalentes. El problema es que para usar Whitehead necesitamos que los isomorfismos inducidos en los grupos homotópicos provengan de una misma función y esto no es nada trivial de hacer para espacios genéricos. Aún así tenemos una pequeña esperanza dado que solo hay un grupo de homotopía no trivial. En particular podemos ver que vale la siguiente proposición que esconde la dificultad de este resultado.
 
->** Proposición**
+> **Proposición.**
 	Sea $(X,x_0)$ un CW complejo, $Y$ un $K(G,1)$ luego todo morfismo 
 	\[\phi:\pi_1(X) \to G\]
 	 se realiza como el inducido por una función continua $f:X \to Y$.
