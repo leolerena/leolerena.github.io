@@ -12,7 +12,7 @@ Otro comentario es que las demos de los teoremas se las debo, las había visto/p
 ------------------------------
 Estos son espacios que su tipo homotópico depende exclusivamente de su grupo fundamental. Esto es que si $X$ es $K(G,1)$ luego su grupo fundamental $\pi_1 X=G$ y los demás grupos de homotopía son nulos. Además pediremos que sea un CW complejo conexo para tener resultados de clasificación más simpáticos.
 
-**Una construcción de $K(G,1)$ usando espacio clasificante.**
+## Motivación de la construcción.
 
 El primer ejemplo que viene a la cabeza es el de $S^1$ que resulta ser un $K(\mathbb Z,1)$. ¿Cómo podemos extender este resultado para grupos abelianos finitamente generados? Pensemos en un grafo $X$ que sabemos que tiene grupo fundamental generado por los ciclos que resulta ser $G$ un grupo libre. Su revestimiento debe ser un grafo pero simplemente conexo. Esto es que su revestimiento sea un árbol, equivalentemente. Dado que es un CW complejo de dimensión 1, sus grupos de homotopía mayores son todos nulos. Recordemos que estos grupos de homotopía son isomorfos con los grupos de homotopía del grafo. Concluimos entonces que $X$ es un $K(G,1)$.
 
@@ -23,9 +23,12 @@ $$\pi_1 \mathbb{RP}^{\infty} = \mathbb Z_2$$ por lo que $\mathbb{RP}^{\infty}$ e
 _Como curiosidad este mismo ejemplo sirve para ver que no todo revestimiento universal de un CW complejo es un revestimiento universal en cada celda del complejo._
 
 ¿Cómo podemos entonces obtener $K(\mathbb Z_n,1)$ para $n\in \mathbb N$ arbitrario? En el caso anterior fuimos construyendo un revestimiento para cada espacio proyectivo que es un cociente de la esfera por medio de la acción de $G_2$. El problema ahora es que para un $n \in \mathbb N$ arbitrario no podemos hacer esto, dado que sobre las esferas de dimensión par solo puede actuar libremente $G_2$ sobre ellas. Lo que podemos hacer entonces es fijarnos en el espacio total $S^{\infty}$ y ver la acción de $G_n$ sobre él. Esto nos va a dar un revestimiento de la esfera infinita en este cociente. En definitiva aún no tenemos las herramientas para hacerlo de esta manera, pero usando el siguiente resultado queda claro como construirlo.
+
 > **Teorema.**
 	Si $G$ actúa libremente y de manera propiamente discontinua sobre un espacio contráctil $\operatorname{EG}$, luego resulta que $EG/G$ es un $K(G,1)$.
 
+
+## Construcción general.
 
 Si nos creemos esto por ahora tenemos una manera de construir espacios $K(G,1)$ para grupos $G$ finitamente generados. O sea ya sabemos construir los grupos de torsión y los libres. Nos falta poder tomar un producto entre ellos. Para eso lo más natural funciona y esto es que 
 $$
@@ -61,7 +64,8 @@ Ya tenemos construidos los espacios $K(G,1)$, nos gustaría saber qué relación
 Suponiendo que vale la proposición no queda más que usarla y junto con el teorema de Whitehead deducir que todos los $K(G,1)$ son homotópicamente equivalentes.
 
 -----------------------------
-**Referencia.** 
+
+## Referencia.
 * Hatcher, _Algebraic topology_.
 
 
