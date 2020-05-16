@@ -1,4 +1,11 @@
-﻿# Representación y función de Green.
+---
+layout: post
+title: "Qué es la función de Gren y de dónde sale."
+mathjax: true
+date: 2020-05-16
+---
+
+# Representación y función de Green.
 
 ## Introducción
 
