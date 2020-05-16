@@ -63,7 +63,7 @@ $$\Delta \varphi_x = 0  $$
 
 y que en el borde $\partial U$ valga que 
 
-$$ \varphi_x(y) = \phi(x,y)$ 
+$$\varphi_x(y) = \phi(x,y)$ 
 
 Si hacemos Green tal como hicimos antes lo que podemos notar es que en este caso nos queda que
 
