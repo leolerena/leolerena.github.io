@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 name: La vida matemática
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+reading_time: true
+words_per_minute: 200
+background: http://christinewiest.weebly.com/uploads/8/6/0/3/8603214/6851007_orig.jpg
