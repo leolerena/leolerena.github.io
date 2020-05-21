@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dudas acumuladas."
+title: "Prueba ej analsisi 2."
 mathjax: true
 date: 2020-03-14
 ---
