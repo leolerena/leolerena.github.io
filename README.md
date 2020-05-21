@@ -2,7 +2,7 @@
   
 Probando esta github page.
 La idea es poner algunas cosas de interés relacionadas a matemática y computación que vaya leyendo y aprendiendo a medida que termino la carrera.
-
+![alt text](https://uploads0.wikiart.org/images/m-c-escher/mural-mosaic-in-the-alhambra.jpg)
 
 
 Script para que funcione mathjax (!!!)
