@@ -1,5 +1,4 @@
-theme: minima
-name: La vida matemática.
+theme: jekyll-theme-caymanname: La vida matemática.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
