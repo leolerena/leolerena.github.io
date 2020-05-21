@@ -1,16 +1,5 @@
-theme: jekyll-theme-cayman
 name: La vida matemática.
+theme: jekyll-theme-cayman
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-#Imágenes.
-logo: 'fotos/mural-mosaic-in-the-alhambra.jpg'
-background: 'fotos/alhambra-detail-10.jpg'
-
-#Social
-twitter: leolerena
-github: leolerena
-
-
-reading_time: true
-words_per_minute: 200
