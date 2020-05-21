@@ -1,7 +1,17 @@
-theme: jekyll-theme-cayman
-name: La vida matemática
+theme: minima
+name: La vida matemática.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+#Imágenes.
+logo:               'fotos/mural-mosaic-in-the-alhambra.jpg'
+background:         'fotos/alhambra-detail-10.jpg'
+
+#Social
+twitter: leolerena
+github: leolerena
+
+
 reading_time: true
 words_per_minute: 200
 background: http://christinewiest.weebly.com/uploads/8/6/0/3/8603214/6851007_orig.jpg
