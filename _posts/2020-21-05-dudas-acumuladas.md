@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Dudas acumuladas."
+mathjax: true
+date: 2020-03-14
+---
+
+
 ## Sugerencias - Ej 16 - Práctica 4. 
 
 ![image-20200521191732463](/home/emi/.config/Typora/typora-user-images/image-20200521191732463.png)
