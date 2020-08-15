@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Qué es la función de Green y de dónde sale."
+title: "Espacios de Sobolev."
 mathjax: true
-date: 2020-05-16
+date: 2020-08-15
 ---
 
-# Espacios de Sobolev.
+
 
 ## ¿Qué son?
 
