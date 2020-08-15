@@ -24,13 +24,13 @@ En otras palabras podemos mirar las derivadas del orden que querramos que estén
 
  Notemos que $H^1(U)$ es $W^{1,2}$ siguiendo esta notación. Este espacio tiene la ventaja aparte de ser un **espacio de hilbert**, es decir que por medio del producto interno 
 
-![image-20200801191916450](/home/emi/.config/Typora/typora-user-images/image-20200801191916450.png)
+![image](https://user-images.githubusercontent.com/31391855/90304657-68047180-de90-11ea-8d5e-c51b9590aeea.png)
 
 es un espacio normado y métrico y podemos ver que es completo. Esto es algo excelente para nosotres dado que entra en juego todos los resultados de análisis funcional que ya teníamos. 
 
 Un espacio que nos va a interesar que es similar a este es 
 
-![image-20200801192110863](/home/emi/.config/Typora/typora-user-images/image-20200801192110863.png)
+![image](https://user-images.githubusercontent.com/31391855/90304676-93875c00-de90-11ea-9231-f2855b2b14ef.png)
 
 que podemos pensar como las funciones de soporte (*no necesariamente*)compacto en $U$ tales que estám en $H^1$. No van a seguir teniendo soporte compacto pero seguro que valen 0 en $\partial U$. Nuestros objetivos van a ser los siguientes,
 
@@ -54,7 +54,7 @@ Lo primero es notar que como espacio $W^{k,p}(U)$ tiene las siguientes caracter�
 
 Por medio de estas propiedades podemos ver algunos resultaditos que cumplen las funciones de estos espacios, en general vale lo siguiente,
 
-![image-20200801195447606](/home/emi/.config/Typora/typora-user-images/image-20200801195447606.png)
+![image](https://user-images.githubusercontent.com/31391855/90304688-aa2db300-de90-11ea-9f49-d628b8f52f40.png)
 
 que nos dice que el gradiente es cero sii u es constante y que se lleva bien con partes positivas, negativas y así con los módulos.
 
@@ -62,11 +62,12 @@ que nos dice que el gradiente es cero sii u es constante y que se lleva bien con
 
 Pasemos ahora a mirar qué pasa cuando miramos sucesiones en estos espacios y cómo son las convergencias acá. Por un lado tenemos un resultado medio Riemann-Lebesgue salvador que es el siguiente,
 
-![image-20200801195705570](/home/emi/.config/Typora/typora-user-images/image-20200801195705570.png)
+![image](https://user-images.githubusercontent.com/31391855/90304697-bca7ec80-de90-11ea-8284-fdde24fe2ce1.png)
+
 
 tal que nos dice que es denso con la topología del espacio de Sobolev, esto es big news y super util. Tengamos en cuenta que no vale para funciones con soporte compacto. La razón cae en que no le pedimos nada a nuestro conjunto $U$. Si le pedimos un poquito más de regularidad obtenemos el siguiente resultado,
 
-![image-20200801195847543](/home/emi/.config/Typora/typora-user-images/image-20200801195847543.png)
+![image](https://user-images.githubusercontent.com/31391855/90304705-cdf0f900-de90-11ea-99c3-aeba7dd364cc.png)
 
 que es una gran mejora pero hay que garantizar que el borde sea $C^1$ y esto es que sea la imagen de una función $C^1$ por medio del teo de función implícita.
 
@@ -74,7 +75,7 @@ que es una gran mejora pero hay que garantizar que el borde sea $C^1$ y esto es 
 
 Otro resultado interesante y útil va a ser un análogo del teorema de Arzela-Ascoli. Es decir un teorema que nos va a decir cuando una existe una sub-sub sucesión que converge a una función. Para esto vamos a pedirle algunas cositas al abierto $U$, de nuevo el enunciado de **Rendrich-Kondrakov(R-K)** es el siguiente,
 
-![image-20200801200141632](/home/emi/.config/Typora/typora-user-images/image-20200801200141632.png)
+![image](https://user-images.githubusercontent.com/31391855/90304708-db0de800-de90-11ea-9d59-c3688fa814a4.png)
 
 que notemos no es una convergencia fuerte sino que débil pero viene con yapa. Es decir viene con convergencia en $L^p$ y con un control de estabilidad para el gradiente. Está bueno pensar contraejemplos para los siguientes casos ([ver teórica sino](http://cms.dm.uba.ar/academico/materias/1ercuat2020/ecuaciones_diferenciales/Sobolev.pdf))
 
@@ -87,11 +88,12 @@ que notemos no es una convergencia fuerte sino que débil pero viene con yapa. E
 
 Pensemos que $U$ es un abierto acotado y nos gustaría dada $u \in W^{1,p}(U)$ definir su valor en el borde. En principio salvo que sea continua ahí nos va a quedar cualquier cosa horrible o incluso no va a estar definida. ¿Qué podemos hacer? Podemos considerar un operador que dada una función en el espacio de Sobolev nos devuelva alguien del borde que coincida con ésta en caso de estar definida. A esta función la llamaremos **traza** y sí, tiene una gran relación con la de álgebra lineal pero eso lo veremos más en adelante. Por ahora quedemonos con el siguiente resultado,
 
-![image-20200801202313269](/home/emi/.config/Typora/typora-user-images/image-20200801202313269.png)
+![image](https://user-images.githubusercontent.com/31391855/90304722-f24cd580-de90-11ea-8e56-9f6150e93dc8.png)
 
 Esto está bueno porque nos permite retomar la idea que teníamos antes de $W_0^{1,p}(U)$ como las funciones que eran $0$ en el borde por ser límite de funciones de soporte compacto contenido en  $U.$ El siguiente resultado formaliza esta intuición,
 
-![image-20200801202535334](/home/emi/.config/Typora/typora-user-images/image-20200801202535334.png)
+![image](https://user-images.githubusercontent.com/31391855/90304732-ff69c480-de90-11ea-8346-853c3542f62c.png)
+
 
 donde la condición de regularidad de $U$ se la pedimos para poder usar el resultado de R-K.
 
@@ -99,7 +101,7 @@ donde la condición de regularidad de $U$ se la pedimos para poder usar el resul
 
 Esta desigualdad como todas las desigualdades en análisis son super utiles. En este caso nos va a permitir acotar por medio de una constante la norma en $L^p$ de una función de $W^{1,p}_0 (U)$ por la norma de su gradiente en $L^p$. Notemos que está bien definido por donde estamos mirando nuestro espacio. El enunciado es el siguiente,
 
-![image-20200801202953793](/home/emi/.config/Typora/typora-user-images/image-20200801202953793.png)
+![image](https://user-images.githubusercontent.com/31391855/90304743-114b6780-de91-11ea-9ae1-767fd97d9ce5.png)
 
 y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la respuesta es que nos permite ver que en este espacio las normas $||\Delta u ||_p $ y $|| u ||_{W^{1,p}}$ son equivalentes!! Es decir que siempre podemos encontrar una bola dentro de otra bola dada para ambas normas.
 
@@ -107,7 +109,7 @@ y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la resp
 
 La respuesta es que lamentablemente $||\Delta u ||_p$ no es una norma sino que una semi norma. Esto es porque las constantes tienen norma $0$ pero son diferentes entre sí. O sea la norma no separa a la función $0$. Pero gracias al ingenio del análisis podemos hacer algo interesante y aún así usar esta norma para acotar la norma de $L^p$. Tenemos el siguiente resultado,
 
-![image-20200801203519381](/home/emi/.config/Typora/typora-user-images/image-20200801203519381.png)
+![image](https://user-images.githubusercontent.com/31391855/90304745-22947400-de91-11ea-9d3f-7820adb2f936.png)
 
 donde notemos que el problema con las constantes ya no nos importa porque consideramos al promedio $\overline u$  sobre todo $U$ tal como hacíamos para las funciones armónicas. ~~En cierta manera estamos limpiando las constantes y las partes donde la función es localmente constante para ahí sí poder obtener una cota~~. Sino podemos sacar el promedio directamente y restarselo para tener una cota más limpia como en el segundo resultado.
 
@@ -115,7 +117,7 @@ donde notemos que el problema con las constantes ya no nos importa porque consid
 
 Dado una función en $L^2(\Bbb R^n)$ nos gustaría poder considerar sus derivadas en sentido de dist dado que en principio no tienen derivadas así como así. Una vez que consideramos estas derivadas lo que hacemos es pensar si están ellas mismas en $L^2(\Bbb R^n)$ y esto lo podemos reescribir en términos de su transformada de Fourier. En definitiva nos termina quedando el siguiente espacio,
 
-![image-20200802162957638](/home/emi/.config/Typora/typora-user-images/image-20200802162957638.png)
+![image](https://user-images.githubusercontent.com/31391855/90304752-350ead80-de91-11ea-987a-8547d6906eec.png)
 
 aparte tenemos un resultado de inmersión topológica como subespacio de estas funciones con derivadas fraccionarias en el espacio de funciones continuas. Este resultado nos dice que podemos mirar a estas funciones como un subespacio de las funciones
 
@@ -135,7 +137,8 @@ $$
 $$
 y la existencia y unicidad la vamos a obtener del siguiente resultado de Riesz,
 
-![image-20200802164640313](/home/emi/.config/Typora/typora-user-images/image-20200802164640313.png)
+![image](https://user-images.githubusercontent.com/31391855/90304758-45bf2380-de91-11ea-9cd3-f4e86acc7ffb.png)
+
 
 Este resultado aparecía en una guía de cálculo avanzado y creo que en lineal. Es el famoso teorema de representación de Riesz dado que a cada funcional $\phi$ lo estamos representando por un único $u$. A su vez tenemos la caracterización variacional que nos va a ser de gran utilidad a la hora tener cotas o controles sobre las normas.
 
