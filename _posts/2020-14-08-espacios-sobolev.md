@@ -20,7 +20,7 @@ donde las derivadas las estamos pensando en el sentido de una distribución. Rec
 
 En otras palabras podemos mirar las derivadas del orden que querramos que estén en  el espacio que querramos. Estos espacios los denotaremos $W^{k,p}$ genéricamente y su definicón es la siguiente,
 
-![image-20200801193209830](/home/emi/.config/Typora/typora-user-images/image-20200801193209830.png)
+![image](https://user-images.githubusercontent.com/31391855/90304465-a6992c80-de8e-11ea-98aa-ce87d0806b41.png)
 
  Notemos que $H^1(U)$ es $W^{1,2}$ siguiendo esta notación. Este espacio tiene la ventaja aparte de ser un **espacio de hilbert**, es decir que por medio del producto interno 
 
