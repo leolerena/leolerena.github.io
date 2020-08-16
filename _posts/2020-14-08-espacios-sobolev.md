@@ -177,11 +177,10 @@ y las condiciones que surgen para sus coeficientes son las siguientes
 
 1.  $a_{ij}, b_{i}, c \in L^{\infty}(U)$ para que $B$ sea bilineal y continua.
 2. $a_{ij} = a_{ji}$  y $b=0$ para que sea simétrico que es una de las cosillas que les pedimos a los productos internos.
-3. si le pedimos que sea **uniformemente elíptico** es decir que exista una constante $\theta$ tal que haga valer la siguiente desigualdad,![image](https://user-images.githubusercontent.com/31391855/90340759-dd775b80-dfd0-11ea-8094-c56957fa3a26.png)
-   entonces de esto podemos deducir que 
-   1. si además pedimos que $c \ge 0$ , luego $B[u,u] \ge \theta || u ||^2_{H_0^1}$
-   2. sino podemos usar la desigualdad de Poincaré para obtener que
-      ![image](https://user-images.githubusercontent.com/31391855/90340769-eec06800-dfd0-11ea-9378-3ad74f8c4631.png)
+3. si le pedimos que sea **uniformemente elíptico** es decir que exista una constante $\theta$ tal que haga valer la siguiente desigualdad,
+
+![image](https://user-images.githubusercontent.com/31391855/90340759-dd775b80-dfd0-11ea-8094-c56957fa3a26.png)
+
 4.  Si tenemos que vale $c \ge 0$ o que vale $||c||_{\infty} < \theta \lambda_1$ entonces $B$ es un producto interno dado que $B[u,u]=0 \Leftrightarrow u=0$ y luego podemos ver que es equivalente a la norma de $H^1_0$.
 
 Si se cumplen estas condiciones podemos usar Riesz y por lo tanto tenemos el siguiente jugoso resultado,
