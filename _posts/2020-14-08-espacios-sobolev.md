@@ -95,7 +95,9 @@ donde la condición de regularidad de $U$ se la pedimos para poder usar el resul
 
 ### Desigualdad de Poincaré y normas.
 
-Esta desigualdad como todas las desigualdades en análisis son super utiles. En este caso nos va a permitir acotar por medio de una constante la norma en $L^p$ de una función de $W^{1,p}_0 (U)$ por la norma de su gradiente en $L^p$. Notemos que está bien definido por donde estamos mirando nuestro espacio. El enunciado es el siguiente,
+Esta desigualdad como todas las desigualdades en análisis son super utiles. En este caso nos va a permitir acotar por medio de una constante la norma en $L^p$ de una función de $W^{1,p}_0 (U)$ 
+
+por la norma de su gradiente en $L^p$. Notemos que está bien definido por donde estamos mirando nuestro espacio. El enunciado es el siguiente,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304743-114b6780-de91-11ea-9ae1-767fd97d9ce5.png)
 
@@ -103,11 +105,14 @@ y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la resp
 
 ¿Por qué no podemos hacer esto en $W^{1,p}(U)$ ? 
 
-La respuesta es que lamentablemente $||\Delta u ||_p$ no es una norma sino que una semi norma. Esto es porque las constantes tienen norma $0$ pero son diferentes entre sí. O sea la norma no separa a la función 0. Pero gracias al ingenio del análisis podemos hacer algo interesante y aún así usar esta norma para acotar la norma de $L^p$. Tenemos el siguiente resultado,
+La respuesta es que lamentablemente 
+$ ||\Delta u ||_p $ 
+
+no es una norma sino que una semi norma. Esto es porque las constantes tienen norma $0$ pero son diferentes entre sí. O sea la norma no separa a la función 0. Pero gracias al ingenio del análisis podemos hacer algo interesante y aún así usar esta norma para acotar la norma de $L^p$. Tenemos el siguiente resultado,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304745-22947400-de91-11ea-9d3f-7820adb2f936.png)
 
-donde notemos que el problema con las constantes ya no nos importa porque consideramos al promedio $\overline u$  sobre todo $U$ tal como hacíamos para las funciones armónicas. ~~En cierta manera estamos limpiando las constantes y las partes donde la función es localmente constante para ahí sí poder obtener una cota~~. Sino podemos sacar el promedio directamente y restarselo para tener una cota más limpia como en el segundo resultado.
+donde notemos que el problema con las constantes ya no nos importa porque consideramos al promedio $\overline u$  sobre todo $U$ tal como hacíamos para las funciones armónicas. Sino podemos sacar el promedio directamente y restarselo para tener una cota más limpia como en el segundo resultado.
 
 ### Derivadas fraccionarias.
 
@@ -125,9 +130,12 @@ aparte tenemos un resultado de inmersión topológica como subespacio de estas f
 
 Consideremos uno de nuestros problemas preferidos de la materia, es decir la siguiente ecuación
 
-$-\Nabla u = f, \ \ \text{en} \ \ U, u=0 \ \ \text{en} \ \partial U$
+$ -\Nabla u = f, \ \ \text{en} \ \ U, u=0 \ \ \text{en} \ \partial U$
+
 para un abierto acotado suave y una función $f \in L^2(U).$ Nuestra formulación débil corresponde a  hallar una función $u \in H_{0}^1(U)$ tal que 
+
 $(u,v)_{H^1_0(U)} = (f,v)_{L^2(U)} \ \ \ \forall v \in H_0^1(U)$
+
 y la existencia y unicidad la vamos a obtener del siguiente resultado de Riesz,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304758-45bf2380-de91-11ea-9cd3-f4e86acc7ffb.png)
