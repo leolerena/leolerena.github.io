@@ -10,9 +10,7 @@ date: 2020-08-15
 ## ¿Qué son?
 
 La idea es cambiar el foco y mirar un espacio distinto al que veníamos trabajando. Lo que vamos a hacer es mirar un subespacio de $L^2$. Esto es vamos a tomar las siguientes funciones,
-$$
-H^1(U) = \{ v \in L^2(U) | \partial_1 v, \dots, \partial_nv \in L^2(U) \}
-$$
+$$H^1(U) = \{ v \in L^2(U) | \partial_1 v, \dots, \partial_nv \in L^2(U) \}$$
 donde las derivadas las estamos pensando en el sentido de una distribución. Recordemos que para hacerlas en este sentido lo que hacemos es pasarle la derivada a una función test. Este primer espacio resulta ser un espacio de Sobolev, pero no es el único. Vamos a tener las siguientes variaciones,
 
 -  $v \in L^p(U)$ para $p \in (1, \infty)$
@@ -103,7 +101,7 @@ Esta desigualdad como todas las desigualdades en análisis son super utiles. En 
 
 ![image](https://user-images.githubusercontent.com/31391855/90304743-114b6780-de91-11ea-9ae1-767fd97d9ce5.png)
 
-y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la respuesta es que nos permite ver que en este espacio las normas $||\Delta u ||_p $ y $|| u ||_{W^{1,p}}$ son equivalentes!! Es decir que siempre podemos encontrar una bola dentro de otra bola dada para ambas normas.
+y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la respuesta es que nos permite ver que en este espacio las normas $$||\Delta u ||_p $$ y $$|| u ||_{W^{1,p}}$$ son equivalentes!! Es decir que siempre podemos encontrar una bola dentro de otra bola dada para ambas normas.
 
 ¿Por qué no podemos hacer esto en $W^{1,p}(U)$ ? 
 
@@ -121,7 +119,7 @@ Dado una función en $L^2(\Bbb R^n)$ nos gustaría poder considerar sus derivada
 
 aparte tenemos un resultado de inmersión topológica como subespacio de estas funciones con derivadas fraccionarias en el espacio de funciones continuas. Este resultado nos dice que podemos mirar a estas funciones como un subespacio de las funciones
 
-![image-20200802163328374](/home/emi/.config/Typora/typora-user-images/image-20200802163328374.png)
+![image](https://user-images.githubusercontent.com/31391855/90340671-44484500-dfd0-11ea-802e-288b5919216d.png)
 
 
 
@@ -129,12 +127,9 @@ aparte tenemos un resultado de inmersión topológica como subespacio de estas f
 
 Consideremos uno de nuestros problemas preferidos de la materia, es decir la siguiente ecuación
 
-![image-20200802163833599](/home/emi/.config/Typora/typora-user-images/image-20200802163833599.png)
-
+$$ -\Nabla u = f, \ \ \text{en} \ \ U, u=0 \ \ \text{en} \ \partial U $$
 para un abierto acotado suave y una función $f \in L^2(U).$ Nuestra formulación débil corresponde a  hallar una función $u \in H_{0}^1(U)$ tal que 
-$$
-(u,v)_{H^1_0(U)} = (f,v)_{L^2(U)} \ \ \ \forall v \in H_0^1(U)
-$$
+$$(u,v)_{H^1_0(U)} = (f,v)_{L^2(U)} \ \ \ \forall v \in H_0^1(U)$$
 y la existencia y unicidad la vamos a obtener del siguiente resultado de Riesz,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304758-45bf2380-de91-11ea-9cd3-f4e86acc7ffb.png)
@@ -145,17 +140,16 @@ Este resultado aparecía en una guía de cálculo avanzado y creo que en lineal.
 ### Condición de Neumann sobre el borde.
 
 ¿Qué pasa si ponemos una condición de Neumann sobre el borde? Es decir si pedimos algo así,
+$$ -\Nabla u = f, \ \ \text{en} \ \ U, \partial_{\nu}u=0 \ \ \text{en} \ \partial U $$
 
-![image-20200802165334963](/home/emi/.config/Typora/typora-user-images/image-20200802165334963.png)
 
 en tal caso podemos usar las fórmulas de green para llevarlo al siguiente problema,
 
-![image-20200802170740650](/home/emi/.config/Typora/typora-user-images/image-20200802170740650.png)
+![image](https://user-images.githubusercontent.com/31391855/90340723-97ba9300-dfd0-11ea-9487-cf1d95616eb4.png)
 
 Así como nos había pasado anteriormente cuando queríamos eliminarnos el problema de las funciones constantes dado que nuestro semi-prod interno $\int \nabla u \nabla v dx$  no las diferenciaba, por lo que no podemos usar Riesz para garantizarnos la unicidad, siempre nos va  quedar salvo una constante. Entonces hacemos como hicimos la otra vez de poner las funciones con promedio exactamente igual a 0 que denotaremos $L^2_0(\Bbb R^n)$. Lo bueno de esto es que vamos a poder usar una acotación para $L^2(\Bbb R^n)$ que nos va a ser de gran utilidad para reescribir nuestro problema como
 
-![image-20200802171223723](/home/emi/.config/Typora/typora-user-images/image-20200802171223723.png)
-
+![image](https://user-images.githubusercontent.com/31391855/90340724-a43eeb80-dfd0-11ea-86f8-9480f0d638bc.png)
 y ahora sí poder usar Riesz para tener existencia y unicidad.
 
 >   <u>Comentario:</u> Tuvimos que hacer este juego de cambiarnos las funciones para que tengan promedio 0 y todo esto, no por diversión sino para que nos quede un **producto interno** y así poder usar Riesz. 
@@ -170,28 +164,29 @@ luego su formulación débil nos queda exactamente en término del producto inte
 
 Imaginemos que ahora generalizamos el problema original tomando algo más complicado en vez de solo el laplaciano. Por ejemplo podríamos hacer de tomar una operador y mirar el problema más general del estilo,
 
-![image-20200802173020896](/home/emi/.config/Typora/typora-user-images/image-20200802173020896.png)
+![image](https://user-images.githubusercontent.com/31391855/90340731-b1f47100-dfd0-11ea-99b8-f34a8398a582.png)
 
 ### Caso simétrico(Riesz).
 
 Si planteamos la formulación débil como veníamos haciendo para todos los casos anteriores y de vuelta recordemos que solo hay una herramienta y esta es el teorema de Riesz. Queremos que sea un producto interno tal que la norma que nos termina dando sea equivalente a la norma de $H^1_0$. Para esto vamos a necesitar que se cumplan algunas propiedades de la forma bilineal que obtenemos de nuestra $\cal L$ que llamaremos $B[u,v]$. Si escribimos de la manera más general tenemos que tiene la siguiente pinta,
 
-![image-20200802173705256](/home/emi/.config/Typora/typora-user-images/image-20200802173705256.png)
+![image](https://user-images.githubusercontent.com/31391855/90340750-ccc6e580-dfd0-11ea-924b-e54e9fc06a53.png)
+
 
 y las condiciones que surgen para sus coeficientes son las siguientes
 
 1.  $a_{ij}, b_{i}, c \in L^{\infty}(U)$ para que $B$ sea bilineal y continua.
 2. $a_{ij} = a_{ji}$  y $b=0$ para que sea simétrico que es una de las cosillas que les pedimos a los productos internos.
-3. si le pedimos que sea **uniformemente elíptico** es decir que exista una constante $\theta$ tal que haga valer la siguiente desigualdad,![image-20200802174050508](/home/emi/.config/Typora/typora-user-images/image-20200802174050508.png)
+3. si le pedimos que sea **uniformemente elíptico** es decir que exista una constante $\theta$ tal que haga valer la siguiente desigualdad,![image](https://user-images.githubusercontent.com/31391855/90340759-dd775b80-dfd0-11ea-8094-c56957fa3a26.png)
    entonces de esto podemos deducir que 
    1. si además pedimos que $c \ge 0$ , luego $B[u,u] \ge \theta || u ||^2_{H_0^1}$
    2. sino podemos usar la desigualdad de Poincaré para obtener que
-      ![image-20200802174402433](/home/emi/.config/Typora/typora-user-images/image-20200802174402433.png)
+      ![image](https://user-images.githubusercontent.com/31391855/90340769-eec06800-dfd0-11ea-9378-3ad74f8c4631.png)
 4.  Si tenemos que vale $c \ge 0$ o que vale $||c||_{\infty} < \theta \lambda_1$ entonces $B$ es un producto interno dado que $B[u,u]=0 \Leftrightarrow u=0$ y luego podemos ver que es equivalente a la norma de $H^1_0$.
 
 Si se cumplen estas condiciones podemos usar Riesz y por lo tanto tenemos el siguiente jugoso resultado,
 
-![image-20200802174704173](/home/emi/.config/Typora/typora-user-images/image-20200802174704173.png)
+![image](https://user-images.githubusercontent.com/31391855/90340782-fc75ed80-dfd0-11ea-9604-b2e5c9b8a6d8.png)
 
 
 
@@ -200,8 +195,7 @@ Si se cumplen estas condiciones podemos usar Riesz y por lo tanto tenemos el sig
 ¿Qué pasa si no resulta ser simétrico?
 
  En tal caso no tenemos una forma bilineal que nos da un prod interno pero existe un resultado de análisis funcional que nos salva las papas. El teorema de **Lax Milgram**,
-
-![image-20200802174908008](/home/emi/.config/Typora/typora-user-images/image-20200802174908008.png)
+![image](https://user-images.githubusercontent.com/31391855/90340795-0861af80-dfd1-11ea-83a2-d0c886ed20c3.png)
 
 que generaliza al teorema de Riesz pero con la hipótesis más débil en este caso de que sea coerciva.
 
@@ -209,17 +203,17 @@ que generaliza al teorema de Riesz pero con la hipótesis más débil en este ca
 
  Así podemos hacer como hicimos antes y en este caso tener que el operador $\cal L$ va a tener soluciones al problema sin tener que pedirle que su forma bilineal asociada sea simétrica! Esto lo traducimos a los términos de la forma de la siguiente manera,
 
-![image-20200802175252847](/home/emi/.config/Typora/typora-user-images/image-20200802175252847.png)
+![image](https://user-images.githubusercontent.com/31391855/90340810-13b4db00-dfd1-11ea-91b0-e7e35e5fc452.png)
 
 #### Otra manera de conseguir coercividad.
 
 Pensemos otras hipótesis que le podemos pedir para tener coercividad y así poder usar el teo de Lax-Milgram. Para esto necesitamos agregarle un término a nuestro operador $\cal L$. Esto es considerar el siguiente problema,
 
-![image-20200802175941467](/home/emi/.config/Typora/typora-user-images/image-20200802175941467.png)
+![image](https://user-images.githubusercontent.com/31391855/90340825-229b8d80-dfd1-11ea-9ac5-2907ec264717.png)
 
 donde agregamos un parámetro extra $\gamma$ que nos va a ser muy útil después porque lo podemos elegir de manera que nos de coerciva. Básicamente hacemos cuentas de análisis usando algunas desigualdades como siempre y llegamos a la condicion,
 
-![image-20200802181347617](/home/emi/.config/Typora/typora-user-images/image-20200802181347617.png)
+![image](https://user-images.githubusercontent.com/31391855/90340829-2af3c880-dfd1-11ea-94ea-b919b274625c.png)
 
 y en este caso nuestra $B_{\gamma}$ es coerciva y podemos aplicar Lax-Milgram para obtener la solución (única) débil del problema anterior.
 
@@ -228,16 +222,14 @@ y en este caso nuestra $B_{\gamma}$ es coerciva y podemos aplicar Lax-Milgram pa
 ## Propiedades del operador $\cal L$.
 
 Consideremos su inversa,
-$$
-\cal L ^ {-1} : f \to u
-$$
+$$\cal L ^ {-1} : f \to u$$
 y vamos a ver que propiedades nos pasa $f$ a $u$ por medio de $\cal L^{-1}$.  
 
 ### Principio del máximo.
 
 El primer resultado que vamos a observar es el siguiente. Si nuestro operador es unif elíptico, $c \ge 0$, simétrico y todo lo lindo que supusimos antes tenemos el siguiente resultado.
 
-![image-20200802181751738](/home/emi/.config/Typora/typora-user-images/image-20200802181751738.png)
+![image](https://user-images.githubusercontent.com/31391855/90340871-6a221980-dfd1-11ea-932e-d429d350e683.png)
 
 que básicamente nos controla a nuestra función solución por medio de la $f$.
 
@@ -245,7 +237,7 @@ que básicamente nos controla a nuestra función solución por medio de la $f$.
 
 Supongamos ahora que verifica las propiedades del teo de Lax-Milgram. Es decir estamos pidiendo un poquito menos que antes para el pcpio del máximo. En este caso tenemos el hermoso resultado que nos dice lo siguiente,
 
-![image-20200802182021528](/home/emi/.config/Typora/typora-user-images/image-20200802182021528.png)
+![image](https://user-images.githubusercontent.com/31391855/90340874-74441800-dfd1-11ea-85cf-8f1b4d30beaf.png)
 
 donde al ser lineal y continuo vale la cota que pusimos abajo. 
 
@@ -258,33 +250,11 @@ Una vez que obtuvimos esto podemos usar nuestro querido resultado R-K obtenido a
 Así como hacíamos para álgebra lineal nos interesa resolver los casos del estilo $Ax=b$ y entender en términos de cuando no se pueda resolver cual es su núcleo (es decir que debería ser no trivial). Podemos recordar que $Ax=b$ tiene solución sii $bv=0 \ \ \forall v \in Nu(A^{*})$. 
 
 Lo que vamos a hacer es llevar esta analogía a nuestro caso cuando $A=\cal L$ y $b = f$. Si consideramos el adjunto del operador $\cal L$ como
-
-![image-20200802183154075](/home/emi/.config/Typora/typora-user-images/image-20200802183154075.png)
+![image](https://user-images.githubusercontent.com/31391855/90340884-81610700-dfd1-11ea-83a7-6aa8f4a78877.png)
 
 entonces obtenemos el siguiente resultado bastante similar en espírutu al resultado de álgebra lineal para la ecuación $\cal L u = f, \ \ u=0$,
 
-![image-20200802183323454](/home/emi/.config/Typora/typora-user-images/image-20200802183323454.png)
-
-### Dos palabras sobre regularidad de las soluciones.
-
-Recordemos de los casos anteriores que la ecuación del laplaciano tiene una única solución clásica si pedimos que $f \in C^2_c(\Bbb R^n)$ pero nuestro método débil nos dice que $u$ está en $H^1_0(U)$. Los resultados de regularidad que podemos obtener nos dicen que la solución gana regularidad de dos grados, es decir
-
-![image-20200802183606820](/home/emi/.config/Typora/typora-user-images/image-20200802183606820.png)
-
-pero estos resultados no los vamos a probar. Simplemente está bueno tenerlos en cuenta.
-
-## Autovalores de operadores elípticos.
-
-De vuelta si consideramos las analogías con el álgebra lineal sabemos que una matriz simétrica es diagonalizable con base de autovectores ortonormales. En un espacio de Hilbert separable si suponemos que el operador es compacto tenemos lo mismo:
-
-![image-20200802183838978](/home/emi/.config/Typora/typora-user-images/image-20200802183838978.png)
-
-En particular si usamos este resultado en $\cal L^{-1}$ podemos obtener volviendo para atrás el siguiente resultado para $\cal L$. El resultado central es el siguiente que obtenemos,
-
-![image-20200802185424661](/home/emi/.config/Typora/typora-user-images/image-20200802185424661.png)
-
-donde nos conseguimos una base del espacio para el producto interno definido por $B$ porque estamos en las condiciones para que defina un producto interno (ver la parte de Riesz). La demostración es larguita pero no super complicada y está bueno leerla aunque sea para tener una idea de como salen estos resultados de análisis funcional [acá](http://cms.dm.uba.ar/academico/materias/1ercuat2020/ecuaciones_diferenciales/autovalores_EcuaDif.pdf). 
-
+![image](https://user-images.githubusercontent.com/31391855/90340890-8d4cc900-dfd1-11ea-911c-7d8f3793d3c6.png)
 
 
 ## Método de separación de variables.
@@ -295,11 +265,11 @@ Volvamos al comienzo de la materia. La pregunta es
 
 La respuesta es que queremos ver en el problema de la ecuación del calor en un abierto acotado $U \subset \Bbb R^n$ y $f \in L^2(U)$:
 
-![image-20200802190351203](/home/emi/.config/Typora/typora-user-images/image-20200802190351203.png)
+![image](https://user-images.githubusercontent.com/31391855/90340900-9f2e6c00-dfd1-11ea-8190-5531e25e795e.png)
 
 Si la solución obtenida por este método de sep de variables es única. Anteriormente nos poníamos a jugar con las hipótesis de $f$ y demás para garantizar esto. Pero si sabemos que $u$ es solución débil en el sentido de estar en $C([0,T], L^2[0,T]) \cap L^2([0,T], H^1_0(U))$  y cumplir que resuelve debilmente la ecuación entonces tenemos existencia y unicidad, esto es que
 
-![image-20200802190803360](/home/emi/.config/Typora/typora-user-images/image-20200802190803360.png)
+![image](https://user-images.githubusercontent.com/31391855/90340912-ab1a2e00-dfd1-11ea-9668-f8d1bab9a492.png)
 
 Y ahora vamos por más. Recordemos que la ecuación de calor a dif de la de ondas y la de transporte tenía el poder mágico de ser regularizante. Veamos que si $D=(0,T)\times U$ luego cualquier sol. de la ecuación del calor en el sentido de distribución es $C^{\infty}(D).$
 
@@ -320,10 +290,8 @@ Recordemos que si queremos ver alguna igualdad en el sentido débil, que tiene q
 ### Pasitos para resolver problemas de autovalores.
 
 1. Primero miramos que la ec no homogenea,
-   $$
-   - \Delta u = f \\
-   u = 0
-   $$
+   $$   - \Delta u = f $$
+   $$ u = 0 $$
    hay que usar Lax-Millgram y/o Riesz para conseguir las soluciones a la ecuación original y si no podés, sos voleta. Quizá no sale de una y hay que usar una desigualdad tipo Poincaré para poder estar en condiciones.
 
 2.  Estudiamos que la aplicación $Tf \to u$ es cont lineal, compacta y simétrica. Hacemos todo con la formulación débil, usando funciones test adecuadas.
