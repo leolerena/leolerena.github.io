@@ -80,8 +80,6 @@ que notemos no es una convergencia fuerte sino que débil pero viene con yapa. E
 *  $U$ no es acotado.
 *  Pedimos convergencia fuerte en $W^{1,p}(U)$ en vez de débil.
 
-
-
 ### Traza y $W_0^{1,p}$.
 
 Pensemos que $U$ es un abierto acotado y nos gustaría dada $u \in W^{1,p}(U)$ definir su valor en el borde. En principio salvo que sea continua ahí nos va a quedar cualquier cosa horrible o incluso no va a estar definida. ¿Qué podemos hacer? Podemos considerar un operador que dada una función en el espacio de Sobolev nos devuelva alguien del borde que coincida con ésta en caso de estar definida. A esta función la llamaremos **traza** y sí, tiene una gran relación con la de álgebra lineal pero eso lo veremos más en adelante. Por ahora quedemonos con el siguiente resultado,
@@ -105,7 +103,7 @@ y esto medio que parece algo curioso pero para qué sirve ¿¿??. Bueno, la resp
 
 ¿Por qué no podemos hacer esto en $W^{1,p}(U)$ ? 
 
-La respuesta es que lamentablemente $||\Delta u ||_p$ no es una norma sino que una semi norma. Esto es porque las constantes tienen norma $0$ pero son diferentes entre sí. O sea la norma no separa a la función $0$. Pero gracias al ingenio del análisis podemos hacer algo interesante y aún así usar esta norma para acotar la norma de $L^p$. Tenemos el siguiente resultado,
+La respuesta es que lamentablemente $||\Delta u ||_p$ no es una norma sino que una semi norma. Esto es porque las constantes tienen norma $0$ pero son diferentes entre sí. O sea la norma no separa a la función 0. Pero gracias al ingenio del análisis podemos hacer algo interesante y aún así usar esta norma para acotar la norma de $L^p$. Tenemos el siguiente resultado,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304745-22947400-de91-11ea-9d3f-7820adb2f936.png)
 
@@ -127,9 +125,9 @@ aparte tenemos un resultado de inmersión topológica como subespacio de estas f
 
 Consideremos uno de nuestros problemas preferidos de la materia, es decir la siguiente ecuación
 
-$$ -\Nabla u = f, \ \ \text{en} \ \ U, u=0 \ \ \text{en} \ \partial U $$
+$-\Nabla u = f, \ \ \text{en} \ \ U, u=0 \ \ \text{en} \ \partial U$
 para un abierto acotado suave y una función $f \in L^2(U).$ Nuestra formulación débil corresponde a  hallar una función $u \in H_{0}^1(U)$ tal que 
-$$(u,v)_{H^1_0(U)} = (f,v)_{L^2(U)} \ \ \ \forall v \in H_0^1(U)$$
+$(u,v)_{H^1_0(U)} = (f,v)_{L^2(U)} \ \ \ \forall v \in H_0^1(U)$
 y la existencia y unicidad la vamos a obtener del siguiente resultado de Riesz,
 
 ![image](https://user-images.githubusercontent.com/31391855/90304758-45bf2380-de91-11ea-9cd3-f4e86acc7ffb.png)
@@ -154,12 +152,6 @@ y ahora sí poder usar Riesz para tener existencia y unicidad.
 
 >   <u>Comentario:</u> Tuvimos que hacer este juego de cambiarnos las funciones para que tengan promedio 0 y todo esto, no por diversión sino para que nos quede un **producto interno** y así poder usar Riesz. 
 
-Ahora lo que sabemos es que si consideramos en cambio el problema similar dado por
-
-![image-20200802172201230](/home/emi/.config/Typora/typora-user-images/image-20200802172201230.png)
-
-luego su formulación débil nos queda exactamente en término del producto interno de $H^1(U)$ y así podemos usar Riesz y todes felices.
-
 ## Extensión a operadores elípticos simétricos.
 
 Imaginemos que ahora generalizamos el problema original tomando algo más complicado en vez de solo el laplaciano. Por ejemplo podríamos hacer de tomar una operador y mirar el problema más general del estilo,
@@ -181,7 +173,8 @@ y las condiciones que surgen para sus coeficientes son las siguientes
 
 ![image](https://user-images.githubusercontent.com/31391855/90340759-dd775b80-dfd0-11ea-8094-c56957fa3a26.png)
 
-4.  Si tenemos que vale $c \ge 0$ o que vale $||c||_{\infty} < \theta \lambda_1$ entonces $B$ es un producto interno dado que $B[u,u]=0 \Leftrightarrow u=0$ y luego podemos ver que es equivalente a la norma de $H^1_0$.
+
+Si tenemos que vale $c \ge 0$ o que vale $||c||_{\infty} < \theta \lambda_1$ entonces $B$ es un producto interno dado que $B[u,u]=0 \Leftrightarrow u=0$ y luego podemos ver que es equivalente a la norma de $H^1_0$.
 
 Si se cumplen estas condiciones podemos usar Riesz y por lo tanto tenemos el siguiente jugoso resultado,
 
