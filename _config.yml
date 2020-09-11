@@ -1,5 +1,5 @@
 name: Libreta personal.
-theme: jekyll-theme-repiola
+theme: minima
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
