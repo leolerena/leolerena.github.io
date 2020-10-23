@@ -2,7 +2,7 @@
 layout: post
 title: "Charlas septiembre-octubre 2020."
 mathjax: true
-date: 2020-23-10
+date: 2020-10-23
 ---
 
 Estos últimos meses estuve bastante asediado por la facultad y la vida pero aún así intenté ir a algunas charlas que me parecían interesantes. Estas son algunas de las charlas que asistí relativamente recientemente. Intenté plasmar lo que recordaba y lo que me interesó al escucharlas.
