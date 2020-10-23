@@ -17,7 +17,9 @@ Charla del cibercoloquio de matemática. [Link](https://www.youtube.com/watch?v=
 
 **Apuntes.**
 
-* Lo primero es medio pavo pero me gustó la manera en que se puede ver que si $G$ actua en $X$ debe ser que $|G| | \chi(X)$. Esto se debe a que la característica se separa para $\chi(X/G)$. Esto vale siempre que las cosas sean suficientemente buenas.
+* Lo primero es medio pavo pero me gustó la manera en que se puede ver que si $G$ actua en $X$ debe ser que $|G| | \chi(X)$. 
+
+  * Esto se debe a que la característica se separa para $\chi(X/G)$. Esto vale siempre que las cosas sean suficientemente buenas.
 
 * Los primeros resultados que intentaron generalizar esto fueron efectivamente resultados que recuerdo haberme topado leyendo en la interné.
 
@@ -83,6 +85,25 @@ Charla del cibercoloquio de matemática. [Link.](https://www.youtube.com/watch?v
     <img src="/home/emi/Documents/PINO/leolerena.github.io/fotos/5b58d59918120c8a9d538252_2cube.jpg" alt="What is an Operad? Part 2" style="zoom: 50%;" />
 
 * La manera de representarlas es como árboles donde las ramas corresponden a los morfismos que salen de cada objeto.
+
+* La manera de entender qué hacen y porqué reciben estos nombres es mirar como se relacionan con ciertos objetos. Una $\cal O$*-álgebra* es un espacio $X$  y funciones ${\cal O_k} : X^k \times {\cal O}(k) \to X$.
+
+* Los resultados grosos nos dan equivalencias de álgebras sobre operadas y otras estructuras algebraicas. A saber,
+
+  * Las álgebras sobre Comm están en correspondencia con monoides conmutativos.
+  * Las álgebras sobre Assoc están en correspondencia con monoides asociativos.
+  
+* Un resultado muy no trivial nos dice que $\Omega X$ es una álgebra de $\cal C_1$ que son los intervalitos que vimos antes. Aparte si $Y$ como espacio topológico conexo es álgebra sobre ${\cal C}_n$ existe $X$ tal que $\Omega^n X \simeq Y$.
+
+* Finalmente nos mostró resultados que ella estuvo laburando con gente de grado en algunas universidades. Los resultados eran sobre presentaciones finitas de operadas que me pareció algo muy simpático para leer e intentar entender. 
+
+  
+
+  
+
+  
+
+  
 
   
 
