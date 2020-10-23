@@ -17,7 +17,7 @@ Charla del cibercoloquio de matemática. [Link](https://www.youtube.com/watch?v=
 
 **Apuntes.**
 
-* Lo primero es medio pavo pero me gustó la manera en que se puede ver que si $G$ actua en $X$ debe ser que $|G| | \chi(X)$. 
+* Lo primero es medio pavo pero me gustó la manera en que se puede ver que si $G$ actua en $X$ debe ser que el orden de$|G|$ divide a $\chi(X)$. 
 
   * Esto se debe a que la característica se separa para $\chi(X/G)$. Esto vale siempre que las cosas sean suficientemente buenas.
 
@@ -82,7 +82,7 @@ Charla del cibercoloquio de matemática. [Link.](https://www.youtube.com/watch?v
   * $Comm(k) = * $
   * $Assoc(k) = S_k$
   * Operados de n-cubitos. Donde $\cal C_n(k)$ son $k$  $n$-cubos con imagenes de los interiores disjuntas. Abajo tenemos $\cal C_2(5)$ por ejemplo.
-    <img src="/home/emi/Documents/PINO/leolerena.github.io/fotos/5b58d59918120c8a9d538252_2cube.jpg" alt="What is an Operad? Part 2" style="zoom: 50%;" />
+    <img src="https://user-images.githubusercontent.com/31391855/97048273-8a7dcf80-1550-11eb-8883-ff6dec1e7255.png" alt="ncubitos" style="zoom:50%;" />
 
 * La manera de representarlas es como árboles donde las ramas corresponden a los morfismos que salen de cada objeto.
 
