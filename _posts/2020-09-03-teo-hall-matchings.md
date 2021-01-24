@@ -10,7 +10,7 @@ Ultimamente estuve intentando ponerme al tanto con algunos resultados básicos d
 Sea $G$ un grafo _finito_ bipartito, tal que ambas particiones $A, B$ tienen la misma cardinalidad.
 
  
- **Teorema de Hall para grafos bipartitos.** La partición $A$ tiene un matching sii para todo subconjunto de vértices $S$ de $A$ resulta que $|N(S)| \ge |S|$.
+ **Teorema de Hall para grafos bipartitos.** La partición $A$ tiene un matching sii para todo subconjunto de vértices $S$ de $A$ resulta que $$|N(S)| \ge |S|$$.
 
 Existen muchas demostraciones posibles, por ejemplo usando el teorema de König o los augmenting path, que son caminos que te permiten aumentar el tamaño del matching.
 
