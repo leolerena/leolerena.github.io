@@ -10,7 +10,7 @@ Ultimamente estuve intentando ponerme al tanto con algunos resultados básicos d
 Sea $G$ un grafo _finito_ bipartito, tal que ambas particiones $A, B$ tienen la misma cardinalidad.
 
  
-> **Teorema de Hall para grafos bipartitos.** La partición $A$ tiene un matching sii para todo subconjunto de vértices $S$ de $A$ resulta que $|N(S)|$ $\ge$ $|S|$.
+ **Teorema de Hall para grafos bipartitos.** La partición $A$ tiene un matching sii para todo subconjunto de vértices $S$ de $A$ resulta que $|N(S)| \ge |S|$.
 
 Existen muchas demostraciones posibles, por ejemplo usando el teorema de König o los augmenting path, que son caminos que te permiten aumentar el tamaño del matching.
 
@@ -18,7 +18,7 @@ Lo que me pareció muy divertida fue la siguiente demostración de un resultado 
 
 
 
-> **Teorema de Petersen.** Todo grafo $2k$-regular tiene un 2-factor.
+ **Teorema de Petersen.** Todo grafo $2k$-regular tiene un 2-factor.
 
 _Demostración_: Como queremos usar el teorema de Hall necesitamos armarnos un grafo bipartito. Para eso usamos estos dos resultados clásicos de teoría de grafos. 
 El primero es que todo grafo de grado par tiene un camino de Euler. El segundo resultado es que todo grafo bipartito $k$-regular tiene un matching (esto es chequear la _marriage condition_). 
