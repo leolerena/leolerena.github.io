@@ -17,6 +17,9 @@ Existen muchas demostraciones posibles, por ejemplo usando el teorema de König 
 Lo que me pareció muy divertida fue la siguiente demostración de un resultado clásico usando este teorema (que en principio no me pareció tan wow, pero es uno de los resultados más aplicados de toda la teoría de grafos). Recordemos que un $k$-factor es un subgrafo que es $k$-regular.
 
 
+![https://user-images.githubusercontent.com/31391855/105626531-05d07500-5e0f-11eb-8286-631e29fe756a.png]
+
+
 
  **Teorema de Petersen.** Todo grafo $2k$-regular tiene un 2-factor.
 
