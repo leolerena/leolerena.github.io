@@ -1,17 +1,21 @@
 ---
 layout: post
-title: "Segundo cuatrimestre 2020."
+title: "Cursada segundo cuatrimestre 2020."
 mathjax: true
-date: 2021-03-01
+date: 2021-01-03
 ---
 
 Este segundo cuatrimestre virtual tuve cursadas más entretenidas y quizá también complicadas que en el primer cuatrimestre. Cursé <u>teoría de lenguajes</u> y <u>análisis funcional</u>.
 
 #### Teoría de lenguajes.
 
-Idealmente me quería anotar en algoritmos 3 pero por un problema de cupos terminé en esta materia. No había cursado lógica y computabilidad que es el prerequisito pero de todos modos le dí para adelante.
 
-La materia me pareció super entretenida y diferente a lo que venía haciendo. No fue super complicado remarla careciendo de conocimiento de computabilidad aunque tampoco fue tan liviana.
+
+<img src="https://devopedia.org/images/article/210/7090.1571152901.jpg" style="zoom:150%;" />
+
+
+
+Idealmente me quería anotar en algoritmos 3 pero por un problema de cupos terminé en esta materia. No había cursado lógica y computabilidad que es el prerequisito pero de todos modos le dí para adelante. La materia me pareció super entretenida y diferente a lo que venía haciendo. No fue super complicado remarla careciendo de conocimiento de computabilidad aunque tampoco fue tan liviana.
 
 La primer mitad de la materia trabajé asiduamente con automátas y gramáticas con contexto. Eran temas que me interesaban desde hace tiempo cuando lo chusmee en el libro de *Sipser*. A su vez me habían aparecido en topología algebraica cuando leí un poco sobre grupos automáticos. Me interesa mucho la conexión que hay con estructuras algebraicas como grupos o semigrupos y poder entenderlas desde un foco similar a este.
 
@@ -25,11 +29,13 @@ Me gustaría ahondar más en la parte más matemática de este área y sin lugar
 
 #### Análisis funcional.
 
-Fue la última materia obligatoria que cursé. Idealmente se cursa antes de ecs difs pero por el bardo que hubo en el primer cuatrimestre se terminó dando en el segundo. Creo que me hubiera servido cursarla en el orden adecuado pero tampoco fue tan malo.
 
-La materia está bastante decente y creo que es de lo mejor que veía de análisis hace un tiempo. Siento que muchas cosas las tenía medio presentes por cálculo avanzado y conocimiento que vas adquiriendo en la carrera. Esto me pasó más que nada en la primer parte. La segunda parte estuvo bastante interesante todo lo que vimos más algebraico del espectro y $C^*$ álgebras. 
 
-Algo que parecía interesante para teoría geométrica de grupos son los resultados que sirven para hablar de grupos amenables que no llegamos a ver claramente pero que se pueden leer con el conocimiento adquirido en el cursito.
+![](https://i.pinimg.com/originals/32/9a/46/329a465435331b294b25d0c6f86eef0c.jpg)
+
+
+
+Fue la última materia obligatoria que cursé. Idealmente se cursa antes de ecs difs pero por el bardo que hubo en el primer cuatrimestre se terminó dando en el segundo. Creo que me hubiera servido cursarla en el orden adecuado pero tampoco fue tan malo. La materia está bastante decente y creo que es de lo mejor que veía de análisis hace un tiempo. Siento que muchas cosas las tenía medio presentes por cálculo avanzado y conocimiento que vas adquiriendo en la carrera. Esto me pasó más que nada en la primer parte. La segunda parte estuvo bastante interesante todo lo que vimos más algebraico del espectro y $C^*$ álgebras. Algo que parecía interesante para teoría geométrica de grupos son los resultados que sirven para hablar de grupos amenables que no llegamos a ver claramente pero que se pueden leer con el conocimiento adquirido en el cursito.
 
 
 
