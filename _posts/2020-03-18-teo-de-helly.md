@@ -7,7 +7,7 @@ date: 2020-03-18
 
 
 
-En esta pequeña entradita quiero dar una demostración de un teorema muy simpático y famosos de geometría convexa.
+En esta pequeña entradita quiero dar una demostración de un teorema muy simpático y famoso de geometría convexa.
 > ### Teorema de Helly.
 > Sean $X_1, X_2, \dots X_n$ conjuntos cerrados y convexos de $\mathbb R^d$ tales que sus intersecciones de a grupos de tamaño $d+1$ son no triviales, entonces vale que, 
 >  $\bigcap X_i \neq \emptyset$.
@@ -21,11 +21,7 @@ Sean ahora las proyecciones en el hiperplano para $i \le n-1$, $$Z_i = X_i \cap 
 pero por otro lado tenemos que $$\bigcap Z_i = Y_n \cap H = \emptyset. $$ Llegamos así a una contradicción como queríamos ver. 
 
 ### Chequeo de hipótesis.
-Veamos en esta sección que no podemos sacar ninguna de las hipótesis. 
-
-Si cambiamos la condición Helly para verificar intersecciones de $d$ elementos el contraejemplo que nos podemos armar son tres rectas tales que sus intersecciones de a pares formen un triangulo no trivial. 
-
-Si en cambio sacamos la condición de convexidad podemos hacernos facilmente varios ejemplos no conexos pero si mantenemos la conexión nos alcanza con tomar en el plano el borde de un cuadrado y por cada vértice tomar los dos ejes contiguos más un poquito de los otros dos ejes. De esta manera es fácil ver que cumple que toda intersección de a triples es no nula pero sí lo es la intersección de los 4 subconjuntos.
+Veamos en esta sección que no podemos sacar ninguna de las hipótesis. Si cambiamos la condición Helly para verificar intersecciones de $d$ elementos el contraejemplo que nos podemos armar son tres rectas tales que sus intersecciones de a pares formen un triangulo no trivial. Si en cambio sacamos la condición de convexidad podemos hacernos facilmente varios ejemplos no conexos pero si mantenemos la conexión nos alcanza con tomar en el plano el borde de un cuadrado y por cada vértice tomar los dos ejes contiguos más un poquito de los otros dos ejes. De esta manera es fácil ver que cumple que toda intersección de a triples es no nula pero sí lo es la intersección de los 4 subconjuntos.
 
 
 
