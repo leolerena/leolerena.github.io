@@ -7,11 +7,13 @@ date: 2021-01-03
 
 Este segundo cuatrimestre virtual tuve cursadas más entretenidas y quizá también complicadas que en el primer cuatrimestre. Cursé <u>teoría de lenguajes</u> y <u>análisis funcional</u>.
 
-#### Teoría de lenguajes.
+---
+
+## Teoría de lenguajes.
 
 
 
-<img src="https://devopedia.org/images/article/210/7090.1571152901.jpg" style="zoom:150%;" />
+<img src="https://devopedia.org/images/article/210/7090.1571152901.jpg" style="zoom: 80%;" />
 
 
 
@@ -25,9 +27,9 @@ El trabajo práctico fue bastante interesante. Hicimos un parser que pueda tomar
 
 Me gustaría ahondar más en la parte más matemática de este área y sin lugar a dudas me pareció super interesante. A su vez me gustó filosóficamente que este relativamente cerca de las aplicaciones y que la teoría sea suficientemente sofisticada.
 
+---
 
-
-#### Análisis funcional.
+## Análisis funcional.
 
 
 
