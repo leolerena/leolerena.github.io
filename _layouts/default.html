@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ Leopoldo Lerena }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			{% include mathjax.html %}
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			<meta name="theme-color" content="#157859">
-				
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		
-	        		<li><a href="https://github.com/leolerena">github.com/leolerena</a></li>
-				</ul>
-			</footer>
-			
-		</body>
-	</html>
+<html>
+    <head>
+        <title>{{ page.title }} | Leopoldo Lerena</title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        {% include mathjax.html %}
+    </head>
+    <body>
+        <header class="site-header">
+            <h1 class="site-title">Leopoldo Lerena</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            {{ content }}
+        </div>
+
+        <footer>
+            </footer>
+    </body>
+</html>
