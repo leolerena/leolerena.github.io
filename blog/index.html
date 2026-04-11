@@ -1,14 +1,129 @@
 ---
 layout: default
-title: Blog secreto de matemática.
+title: Blog.
 ---
-	<h1>{{ page.title }}</h1>
-	 In this small and rather modest looking blog I want to post things that I think are interesting with as many details as I please. This means that most of what I write falls short from the formal treatments you can find on a textbook or a paper. This is fine. The other side of the coin is that I want it to be interesting and for that reason I want to include many examples and intuitions which I think is the comparative advantage an informal math blog has over a formal book.
-	If you want to know what type of math and type of person I am look <a href="/about"> here  </a>. 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leopoldo Lerena</title>
+    <style>
+        /* Minimalist Academic Styling */
+		.site-title {
+			font-size: 2.5rem;
+			margin-bottom: 10px;
+			padding-bottom: 5px;
+		}
+        body {
+            font-family: "serif", Times, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 30px;
+            background-color:#f5f2edbd;
+        }
+
+        .profile-pic {
+			float: left;            /* This is the key to the 'side-by-side' look */
+			width: 500px;           /* Compact size */
+			height: auto;
+			margin-right: 20px;     /* Space between image and text */
+			margin-bottom: 10px;    /* Prevents text below from touching the image */
+			border: 1px solid #cccccc;
+			border-radius: 2px;
+		}
+
+		/* Clearfix: This ensures the Nav bar doesn't jump up into the image space */
+		header::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 2rem;
+			padding-top: 0;         /* Ensures it aligns with the top of the photo */
+		}
+
+		.subtitle {
+			font-style: italic;
+			color: #444;
+		}
+
+        .subtitle {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        h2 {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            font-variant: small-caps;
+        }
+
+        a {
+            color: #b30000c9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #efefef;
+        }
+
+        th {
+            background-color: #f9f9f9;
+        }
+
+        .pub-item {
+            margin-bottom: 15px;
+        }
+
+        .pub-title {
+            font-weight: bold;
+        }
+
+        .links {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+	 <p>
+		(Soon).
+		I will try to blog about things that captivate my attention. 
+	 </p>
 	
 	<ul class="posts">
 
-	  {% for post in site.posts %}
+	  <!-- {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+	  {% endfor %} -->
 	</ul>

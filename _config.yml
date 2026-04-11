@@ -1,4 +1,4 @@
-name: Leo Lerena blog.
+name: Leo Lerena's web page.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 # SITE CONFIGURATION
