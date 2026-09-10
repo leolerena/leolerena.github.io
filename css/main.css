@@ -41,3 +41,32 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/* Base container for desktop */
+.container {
+    /* width: 100%; */
+    max-width: 2500px;
+    margin: 0 auto;
+    /* padding: 10px 1rem; */
+    box-sizing: border-box;
+}
+
+/* Responsive adjustment for phones/tablets */
+@media (max-width: 1500px) {
+    .container {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+        max-width: 100% !important;
+    }
+
+    /* Prevent any nested indent or images from overflowing */
+    .indented {
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+
+    .profile-pic {
+        width: 75% !important;
+        max-width: 450px !important;
+        height: auto !important;
+    }
+}
