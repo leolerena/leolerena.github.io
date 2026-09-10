@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Leopoldo Lerena
+title: Leo Lerena's homepage
 ---
 
 <!DOCTYPE html>
@@ -8,166 +8,174 @@ title: Leopoldo Lerena
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leopoldo Lerena</title>
+    <title> Leo Lerena's homepage </title>
     <style>
-        /* Minimalist Academic Styling */
-		.site-title {
-			font-size: 2.5rem;
-			margin-bottom: 10px;
-			padding-bottom: 5px;
-		}
-        body {
-            font-family: "serif", Times, serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 850px;
-            margin: 40px auto;
-            padding: 0 30px;
-            background-color:#f5f2edbd;
-        }
+    /* Minimalist Academic Styling */
+    html {
+        font-size: 100%;
+    }
 
-        .profile-pic {
-			float: left;            /* This is the key to the 'side-by-side' look */
-			width: 500px;           /* Compact size */
-			height: auto;
-			margin-right: 20px;     /* Space between image and text */
-			margin-bottom: 10px;    /* Prevents text below from touching the image */
-			border: 1px solid #cccccc;
-			border-radius: 2px;
-		}
+    body {
+        font-family: "serif", Times, serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 4rem;
+        background-color: #f5f2edbd;
+        text-align: left;
+    }
 
-		/* Clearfix: This ensures the Nav bar doesn't jump up into the image space */
-		header::after {
-			content: "";
-			clear: both;
-			display: table;
-		}
+    /* Force ALL regular body text, links, and details to 14px */
+    p, span, a, td, th, li, details, summary, em, strong {
+        font-size: 14px !important;
+    }
 
-		h1 {
-			margin: 0;
-			font-size: 2rem;
-			padding-top: 0;         /* Ensures it aligns with the top of the photo */
-		}
+    /* Reusable class for indented content blocks */
+    .indented {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin: 4px 0 10px 0;
+    }
 
-		.subtitle {
-			font-style: italic;
-			color: #444;
-		}
+    /* Headings set to 17px and centered */
+    h1 {
+        margin: 0 0 10px 0;
+        font-size: 17px !important;
+        text-align: center;
+    }
 
-        .subtitle {
-            font-style: italic;
-            font-size: 1.1rem;
-            color: #555;
-            margin-bottom: 20px;
-        }
+    h2 {
+        margin: 28px 0 10px 0;
+        font-size: 17px !important;
+        font-variant: small-caps;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 3px;
+        text-align: center;
+    }
 
-        nav {
-            border-top: 1px solid #ddd;
-            border-bottom: 1px solid #ddd;
-            padding: 10px 0;
-            margin-bottom: 30px;
-        }
+    /* Profile image: 40% larger (280px -> ~390px) and centered */
+    .profile-pic {
+        display: block;
+        float: none;
+        margin: 0 auto 20px auto;
+        width: 390px;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #cccccc;
+        border-radius: 2px;
+    }
 
-        nav a {
-            margin-right: 15px;
-            font-weight: bold;
-        }
+    header::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 
-        h2 {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 40px;
-            font-variant: small-caps;
-        }
+    a {
+        color: #b30000c9;
+        text-decoration: none;
+    }
 
-        a {
-            color: #b30000c9;
-            text-decoration: none;
-        }
+    a:hover {
+        text-decoration: underline;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    .pub-item {
+        margin-bottom: 15px;
+    }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
+    .pub-title {
+        font-weight: bold;
+    }
 
-        th, td {
-            text-align: left;
-            padding: 10px;
-            border-bottom: 1px solid #efefef;
-        }
+    .abstract-toggle {
+        margin-top: 6px;
+    }
 
-        th {
-            background-color: #f9f9f9;
-        }
+    .abstract-toggle summary {
+        cursor: pointer;
+        color: #b30000c9;
+        font-weight: normal;
+    }
 
-        .pub-item {
-            margin-bottom: 15px;
-        }
+    .abstract-content {
+        margin-top: 6px;
+        padding: 8px 12px;
+        background-color: #eee9e0;
+        border-left: 2px solid #b30000c9;
+    }
 
-        .pub-title {
-            font-weight: bold;
-        }
-
-        .links {
-            font-size: 0.9rem;
-        }
-    </style>
+    .abstract-content p {
+        margin-bottom: 8px;
+    }
+</style>
 </head>
 <body>
 
     <header>
-		<!-- <h1 class="site-title">Leopoldo Lerena</h1> -->
         <div class="header-wrapper">
-        <img src="Foto-SanIsidro-Cucuy.jpeg" alt="Your Name" class="profile-pic">
-        <div class="header-text">
-            <div class="subtitle">
-                PhD Student in Computer Science <br>
-                University of Buenos Aires.
-            </div>
+            <img src="Foto-SanIsidro-Cucuy.jpeg" alt="Leopoldo Lerena" class="profile-pic">
         </div>
-    </div>
     </header>
 
     <section id="about">
         <h2>About</h2>
-       <p>
+        <p>
             I am a second-year PhD student supervised by <a href="https://foones.github.io">Pablo Barenbaum</a> at the <a href="https://icc.fcen.uba.ar">ICC</a> (FCEyN, University of Buenos Aires). I am a member of the <a href="https://lorel-team.github.io">LOREL team</a> and my research is supported by a <a href="https://www.conicet.gov.ar">CONICET</a> doctoral fellowship.
         </p>
         <p>
-            My academic background is in Pure Mathematics; 
-			I completed my <em>Licenciatura</em> (Master's equivalent) at <a href="https://web.dm.uba.ar">DM-UBA</a>.
+            My academic background is in Pure Mathematics. 
+            I completed my <em>Licenciatura en Ciencias Matemáticas</em> at <a href="https://web.dm.uba.ar">DM-UBA</a>.
         </p>
     </section>
 
-	<section>
-		<h2>(Some) Interests</h2>
-		<p>
-			Computational content of Classical Logic, Linear Logic, Realizability, Proof assistants, Intersection of Algebra and λ-Calculus. 
-		</p>
-	</section>
+    <section id="interests">
+        <h2>Interests</h2>
+            Computational content of Classical Logic, Linear Logic, Realizability, Proof assistants, Intersection of Algebra and λ-Calculus.
+    </section>
 
-    <section id="Work">
+    <section id="works">
         <h2>Work</h2>
         <div class="pub-item">
-            <span class="pub-title"> A Classical Linear λ-Calculus based on Contraposition. </span> <br>
-            Co-authors: Pablo Barenbaum, Eduardo Bonelli. <br>
-            <em>Preprint.</em> (2026)
+            <span class="pub-title">A Classical Linear λ-Calculus based on Contraposition.</span> 
             <span class="links">[<a href="https://arxiv.org/pdf/2602.02822">pdf</a>] [<a href="https://arxiv.org/abs/2602.02822">arXiv</a>]</span>
+            
+            <div class="indented"> 
+                (with Pablo Barenbaum, Eduardo Bonelli). <em>Preprint.</em> (2026)
+                
+                <details class="abstract-toggle">
+                    <summary>Abstract</summary>
+                    <div class="abstract-content">
+                        <p>
+                            Linear logic is a resource-conscious logic, where formulae cannot be arbitrarily duplicated or erased, making it a suitable language for modeling resource-sensitive phenomena. Starting from a single-conclusion natural deduction presentation for intuitionistic multiplicative linear logic (IMLL), adding linear negation leads us to the classical law of contraposition. In this setting, classical multiplicative linear logic (MLL) can be recovered simply by introducing a linear modus tollens rule.
+                        </p>
+                        <p>
+                            We provide a computational interpretation for this inference system through the Curry-Howard correspondence and we present a calculus where the central computational novelty is the necessity of a new operation which we call “contra-substitution”. We then extend these ideas to the full multiplicative-exponential fragment (MELL) and prove that it has the desirable properties: confluence, strong normalization, and subject reduction. Finally, we show how certain well-known term assignments for classical logic embed into our calculus.
+                        </p>
+                    </div>
+                </details>
+            </div>
         </div>
-        </section>
+    </section>
 
-    
+    <section id="talks">
+        <h2>Talks</h2>
+        <div class="pub-item">
+            <span class="pub-title">A Classical Linear λ-Calculus based on Contraposition.</span> 
+            <a href="{{ '/files/Contraposition-Calculus-IRIF-2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">[pdf]</a>
+            
+            <div class="indented">
+                September 10, 2026, at the Séminaire "La syntaxe rencontre la sémantique" of Université Paris Cité.
+            </div>
+        </div>
+    </section>    
 
     <section id="contact">
         <h2>Contact</h2>
         <p>
             <strong>Email:</strong> leolerena(at)gmail(dot)com <br>
-            <strong>Location:</strong> Paris, France (Current until October 2026) / Buenos Aires, Argentina <br>
             <strong>Links:</strong> 
             <a href="https://github.com/leolerena">GitHub</a> | 
             <a href="https://dblp.org/pid/429/3123.html">DBLP</a>
